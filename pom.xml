@@ -21,9 +21,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.st4200</groupId>
+            <groupId>com.github.apk-editor</groupId>
             <artifactId>aXML</artifactId>
-            <version>1.1</version> 
+            <version>master-SNAPSHOT</version> 
         </dependency>
     </dependencies>
 
