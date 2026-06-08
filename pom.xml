@@ -17,13 +17,18 @@
             <id>maven-central</id>
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
+        <!-- 解决 androidx.annotation 依赖 -->
+        <repository>
+            <id>google</id>
+            <url>https://maven.google.com</url>
+        </repository>
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>com.github.apk-editor</groupId>
             <artifactId>aXML</artifactId>
-            <version>master-SNAPSHOT</version> 
+            <version>001c28e4c2</version>   <!-- 推荐使用这个具体 commit -->
         </dependency>
     </dependencies>
 
@@ -31,6 +36,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.6.0</version>
                 <configuration>
                     <archive>
                         <manifest>
